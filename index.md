@@ -1,5 +1,10 @@
 ## Welcome to Jongewaard GitHub Pages
 
+Page in construction.
+![Image of Yaktocat](https://german-jongewaard.github.com/constru.gif) 
+
+If you want to contact me, _write me to the email_: germanjongewaard@gmail.com
+
 You can use the [editor on GitHub](https://github.com/german-jongewaard/german-jongewaard.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
