@@ -1,4 +1,4 @@
-## Welcome to Jongewaardddddd GitHub Pages
+## Welcome to Jongewaard GitHub Pages
 
 Page in construction.
 ![Image of Yaktocat](https://german-jongewaard.github.com/constru.gif) 
