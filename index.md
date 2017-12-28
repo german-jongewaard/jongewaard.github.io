@@ -16,9 +16,8 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 public class German_Jongewaard {
  
-    public static void main(String[] args) {        
-                
-                
+    public static void main(String[] args) {    
+    
         /*Los tipos enumerados se declaran fuera del main*/
     
     enum Talla{MINI, MEDIANO, GRANDE, MUY_GRANDE};
