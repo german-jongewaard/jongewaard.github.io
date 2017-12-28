@@ -14,13 +14,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-public class Uso_Empleado {
+public class German_Jongewaard {
  
     public static void main(String[] args) {
        
-        Jefatura jefe_RRHH = new Jefatura("Juan", 55000, 2006, 9, 25);
+        Jefatura german_jefe = new Jefatura("Germán", 55000, 2012, 9, 25);
         
-        jefe_RRHH.estableceIncentivo(2570);
+        jefe_RRHH.estableceIncentivo(3570);
         
         Empleado[] misEmpleados = new Empleado[5];
         
