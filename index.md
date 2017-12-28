@@ -17,28 +17,24 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 public class German_Jongewaard {
  
     public static void main(String[] args) {        
+                
+                
+        /*Los tipos enumerados se declaran fuera del main*/
+    
+    enum Talla{MINI, MEDIANO, GRANDE, MUY_GRANDE};
+    /*La variable objeto Talla solo puede almacenar en su 
+    interior los datos que hemos ingresado*/
+     
+    public static void main(String[] args) {
+        // TODO code application logic here
         
+        Talla S = Talla.MINI;
+        Talla M = Talla.MEDIANO;
+        Talla L = Talla.GRANDE;
+        Talla XL = Talla.MUY_GRANDE;        
         
-        Empleado[] misEmpleados = new Empleado[5];
-        
-        misEmpleados[0] = new Empleado("Ana", 30000, 2000, 07, 07);
-        misEmpleados[1] = new Empleado("Carlos", 50000, 1995, 06, 15);
-        misEmpleados[2] = new Empleado("Paco", 25000, 2005, 9, 25);
-        misEmpleados[3] = new Empleado("Antonio", 47500, 2009, 11, 9);
-        misEmpleados[4] = jefe_RRHH; /*Polimorfismo en acción, 
-                                       principio de sustitución*/
-         
-        //EJEMPLO CON EL FOR EACH (FOR MEJORADO) :-)
-        for(Empleado e: misEmpleados){
-            /*Aumento el sueldo de los empleados un 5% */
-            e.subeSueldo(5);
-        }
-        for(Empleado e: misEmpleados){
-            System.out.println("Nombre: " + e.dameNombre() + 
-                " Sueldo: " + e.dameSueldo() + " Fecha de alta: " +
-                e.dameFechaContrato()); 
-        }        
-    }    
+    }
+    
 }
 ```
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
