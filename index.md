@@ -34,6 +34,10 @@ public class German_Jongewaard {
 ```
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+public String dameDescripcion(){
+        return "Este empleado tiene un Id= " + Id  + " con un sueldo = " + sueldo;
+    }
+    
 ```markdown
 Syntax highlighted code block
 
