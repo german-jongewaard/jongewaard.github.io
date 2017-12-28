@@ -17,10 +17,8 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 public class German_Jongewaard {
  
     public static void main(String[] args) {
-       
-        Jefatura german_jefe = new Jefatura("Germán", 55000, 2012, 9, 25);
         
-        jefe_RRHH.estableceIncentivo(3570);
+        
         
         Empleado[] misEmpleados = new Empleado[5];
         
